@@ -1,0 +1,71 @@
+.nav {
+    background: #ffffff;
+    box-shadow: 0 .01rem .05rem #E5E5E5;
+}
+
+.statement_content {
+    padding: .8rem .3rem;
+    margin-top: 1.05rem;
+    background: #FFFFFF;
+}
+
+.statement_content span {
+    display: block;
+    text-align: center;
+    font-size: .4rem;
+    font-style: normal;
+    color: #000000;
+}
+
+.statement_content i {
+    display: block;
+    text-align: center;
+    font-size: .24rem;
+    font-style: normal;
+    color: #bbbbbb;
+    margin-top: .15rem;
+}
+
+.statement_content .statement_con {
+    margin-top: .6rem;
+}
+
+.statement_content .statement_con p {
+    font-size: .28rem;
+    font-style: normal;
+    color: #666666;
+    margin-top: .3rem;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    line-height: .46rem;
+}
+
+.statement_content .statement_con em {
+    display: block;
+    font-size: .36rem;
+    font-style: normal;
+    color: #000000;
+    margin-top: .6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

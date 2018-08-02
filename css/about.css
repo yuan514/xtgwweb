@@ -1,0 +1,265 @@
+.banner {
+    width: 100%;
+    height: 4.4rem;
+    position: relative;
+}
+
+.about_content {
+    width: 100%;
+    height: auto;
+}
+
+.about_content span {
+    display: block;
+    font-style: normal;
+    font-size: .36rem;
+    color: #666666;
+}
+
+.about_content i {
+    display: block;
+    font-style: normal;
+    font-size: .24rem;
+    color: #bbbbbb;
+    margin-top: .1rem;
+}
+
+.about_content .content {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    margin-top: .2rem;
+    padding: 0.8rem .3rem .5rem .3rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+
+.about_content .content .intro {
+    margin-top: .75rem;
+}
+
+.about_content .content .intro span {
+    display: block;
+    width: 1.28rem;
+    height: 1.28rem;
+    margin: 0 auto;
+    background: linear-gradient(to right, #47c0f0, #00a5ea);
+    border-radius: 50%;
+    text-align: center;
+    font-size: .28rem;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 1.28rem;
+}
+
+.about_content .content .intro i {
+    display: block;
+    width: 1px;
+    height: 1.7rem;
+    margin: 0 auto;
+    background: #E5E5E5;
+}
+
+.about_content .content .intro em {
+    display: block;
+    width: .1rem;
+    height: .1rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: #E5E5E5;
+}
+
+.intro_posit li {
+    position: absolute;
+}
+
+.intro_posit li span {
+    display: block;
+    font-size: .28rem;
+    font-style: normal;
+    color: #00a5ea;
+    margin-left: 0;
+}
+
+.intro_posit li p {
+    display: block;
+    width: 3.1rem;
+    font-size: .28rem;
+    font-style: normal;
+    color: #666666;
+    margin-top: .05rem;
+}
+
+.intro_posit li:nth-child(1) {
+    top: 5.3rem;
+    left: 4rem;
+}
+
+.intro_posit li:nth-child(2) {
+    top: 7.1rem;
+    left: 0.4rem;
+}
+
+.intro_posit li:nth-child(2) span {
+    text-align: right;
+}
+
+.intro_posit li:nth-child(3) {
+    top: 11.9rem;
+    left: 4rem;
+}
+
+.intro_posit li:nth-child(4) {
+    top: 13.7rem;
+    left: .4rem;
+}
+
+.intro_posit li:nth-child(4) p {
+    text-align: right;
+}
+
+.intro_posit li:nth-child(5) {
+    top: 15.5rem;
+    left: 4rem;
+}
+
+.intro_posit li:nth-child(6) {
+    top: 17.3rem;
+    left: .4rem;
+}
+
+.intro_posit li:nth-child(4) span {
+    text-align: right;
+}
+
+.intro_posit li:nth-child(6) span {
+    text-align: right;
+}
+
+.intro_posit li:nth-child(6) p {
+    text-align: right;
+}
+
+.synopsis {
+    display:none;
+}
+.synopsis p {
+    font-style: normal;
+    font-size: .3rem;
+    color: #666666;
+    margin-top: .6rem;
+}
+
+.enterprise_logo {
+    width: 100%;
+}
+
+.enterprise_logo ul {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.enterprise_logo ul li {
+    width: 6.9rem;
+    height: 2.6rem;
+    margin: 0 auto;
+}
+
+.enterprise_logo ul li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.enterprise_logo ul li:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.enterprise_logo ul li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.compony_intro{
+    display:none;
+}
+.corporate_culture{
+    display:none;
+}
+.enterprise_logo{
+    display:none;
+}
+.cooperative_partner{
+    display:none;
+}
+.content_block{
+    display:block;!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

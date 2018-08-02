@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/commen.css">
+    <link rel="stylesheet" href="css/produce.css">
+    <script src="js/rem.js"></script>
+    <title>小豚官网-产品体系</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/demoUtils.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/product.js"></script>
+</head>
+<script type="text/javascript">
+
+    var myScroll;
+
+    function loaded() {
+        myScroll = new IScroll('#wrapper', {scrollX: true, scrollY: false, mouseWheel: true});
+    }
+
+    document.addEventListener('touchmove', function (e) {
+//        e.preventDefault();
+    }, isPassive() ? {
+        capture: false,
+        passive: true
+    } : false);
+
+</script>
+<style>
+    #wrapper {
+        /*position: absolute;*/
+        /*z-index: 1;*/
+        /*top: 45px;*/
+        /*bottom: 48px;*/
+        /*left: 0;*/
+        /*width: 100%;*/
+        /*background: #ccc;*/
+        overflow: hidden;
+        background: #ffffff;
+    }
+
+    #scroller {
+        /*position: absolute;*/
+        z-index: 1;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        width: 9rem;
+        height: 1.1rem;
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        -o-text-size-adjust: none;
+        text-size-adjust: none;
+    }
+
+    #scroller ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    #scroller li {
+        display: block;
+        float: left;
+        font-size: .3rem;
+        line-height: 1.1rem;
+        margin-left: .4rem;
+    }
+
+    #scroller li a{
+        text-decoration: none;
+        color: #999999;
+    }
+
+</style>
+<body onload="loaded()">
+<img src="img/title_logo.png" alt="" style="display:none">
+<div class="nav_mask" style="display:none">
+    <div id="wrapper_a" >
+        <div id="scroller_a">
+            <ul>
+                <li class="mask_li">
+                    <div class="logo"><a href="index.html"><img src="img/logo_Top_blue@2x.png" alt=""></a></div>
+                    <div class="nav_logo"><img src="img/nav_menu_blue@2x.png" alt=""></div>
+                </li>
+                <li class="mask_li"><a href="index.html">首页</a></li>
+                <li class="nav_about">
+                    <a class="ad" href="about.html">关于</a>
+                    <img class="rotate1" src="img/more.png" alt="">
+                    <ul class="nav_one nav_ul" style="display:none">
+                        <li><a href="about.html#synopsis">公司简介</a></li>
+                        <li><a href="about.html#compony_intro">发展历程</a></li>
+                        <li><a href="about.html#corporate_culture">企业文化</a></li>
+                        <li><a href="about.html#enterprise_logo">企业标识</a></li>
+                        <li><a href="about.html#cooperative_partner">合作伙伴</a></li>
+                    </ul>
+                </li>
+                <li class="nav_product">
+                    <a class="ad blue" href="produce.html">产品体系 </a>
+                    <img class="" src="img/more.png" alt="">
+                    <ul class="nav_two nav_ul" style="display:none">
+                        <li><a href="produce.html#adver">广告平台</a></li>
+                        <li><a href="produce.html#data">大数据平台</a></li>
+                        <li><a href="produce.html#sale">新零售平台</a></li>
+                        <li><a href="produce.html#media">新媒体平台</a></li>
+                        <li><a href="produce.html#hand_computer">手游分发</a></li>
+                    </ul>
+                </li>
+                <li class="mask_li"><a href="news.html">公司动态</a></li>
+                <li class="mask_li"><a href="addus.html">加入我们</a></li>
+                <li class="mask_li"><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="all">
+    <!--banner-->
+    <div class="banner">
+        <img src="img/bag_Productsystem@2x.png" alt="">
+        <div class="nav">
+            <div class="logo">
+                <a href="index.html"><img class="white_l" src="img/logo_Top_white@2x.png" alt="" >
+                <img class="blue_l" src="img/logo_Top_blue@2x.png" alt="" style="display:none"></a></div>
+            <div class="nav_logo">
+                <img class="white_r" src="img/nav_menu_white@2x.png" alt="">
+                <img class="blue_r" src="img/nav_menu_blue@2x.png" alt="" style="display:none">
+            </div>
+        </div>
+    </div>
+
+
+    <!--content-->
+    <div class="about_content">
+        <div id="wrapper">
+            <div id="scroller">
+                <ul>
+                    <li><a href="produce.html#adver" class="blue">广告平台</a></li>
+                    <li><a href="produce.html#data">大数据平台</a></li>
+                    <li><a href="produce.html#sale">新零售平台</a></li>
+                    <li><a href="produce.html#media">新媒体平台</a></li>
+                    <li><a href="produce.html#hand_computer">手游分发</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!--广告平台-->
+        <div class="adver content content_block">
+            <span>广告平台</span>
+            <i>ADVERTISING PLATFORM</i>
+            <em>极速广告平台</em>
+            <div class="adver_word">
+                <img src="img/jisulogo.png" alt="">
+                <p>
+                    成立于2002年3月，专注于基础网络服务，是中国最大的中小网站站长与互联网创业者交流平台，截至2013年10月已拥有超过150万的注册用户，覆盖了网站站长、互联网从业者、行业中高层技术管理人员、搜索引擎优化从业人员、网页设计人员以及创业者等多个不同领域的用户，亦是中国互联网行业中集流量大、频道多、用户广于一体的知名创业者交流平台。
+                </p>
+            </div>
+            <em>新意广告平台</em>
+            <div class="adver_word">
+                <img src="img/logo_xinyi_yidong@2x.png" alt="">
+                <p>
+                    新意移动精准营销平台由大数据的精准营销专家——小豚科技倾力打造！拥有独特的技术优势和丰富的移动广告开发经验，致力于为广告主提供优质的品牌推广服务，为渠道提供更高更公平正义的收益。
+                </p>
+            </div>
+        </div>
+
+        <!--大数据平台-->
+        <div class="data content"></div>
+        <!--新零售平台-->
+        <div class="sale content"></div>
+        <!--新媒体平台-->
+        <div class="media content"></div>
+        <!--手游分发-->
+        <div class="hand_computer content"></div>
+    </div>
+
+    <!--foot-->
+    <div class="foot">
+        <ul>
+            <li class="about">
+                <div class="ad">关于 <img class="xuan1" src="img/more.png" alt=""></div>
+                <ul class="foot_one foot_ul" style="display:none">
+                    <li><a href="about.html#synopsis">小豚简介</a></li>
+                    <li><a href="about.html#corporate_culture">企业文化与价值</a></li>
+                    <li><a href="addus.html">加入我们</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                    <li><a href="about.html#cooperative_partner">合作伙伴</a></li>
+                </ul>
+            </li>
+            <li class="product">
+                <div class="ad">产品体系 <img src="img/more.png" alt=""></div>
+                <ul class="foot_two foot_ul" style="display:none">
+                    <li><a href="produce.html#adver">广告平台</a></li>
+                    <li><a href="produce.html#data">大数据平台</a></li>
+                    <li><a href="produce.html#sale">新零售平台</a></li>
+                    <li><a href="produce.html#media">新媒体平台</a></li>
+                    <li><a href="produce.html#hand_computer">手游分发</a></li>
+                </ul>
+            </li>
+            <li class="law">
+                <div class="ad">法律政策 <img src="img/more.png" alt=""></div>
+                <ul class="foot_three foot_ul" style="display:none">
+                    <li><a href="clause.html">服务条款</a></li>
+                    <li><a href="statement.html">隐私声明</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="ban">Copyright © 2018.xiaotun.com All Rights Reserved</div>
+        <div class="choose">
+            <i>触屏版</i>
+            <span>|</span>
+            <em>电脑版</em>
+        </div>
+        <img class="top" src="img/btn_top@2x.png" alt="" style="display:none">
+    </div>
+</div>
+</body>
+</html>
+<script>
+    $().ready(function(){
+        var str=window.location.href; //取得整个地址栏
+        var num=str.indexOf("#");
+        str=str.substr(num+1); //取得所有参数   stringvar.substr(start [, length ]
+        if(str=='adver'){
+            $('.content').removeClass('content_block');
+            $('.adver').addClass('content_block');
+            $('#wrapper #scroller ul li a').removeClass('blue');
+            $('#wrapper #scroller ul li a:eq(0)').addClass('blue');
+        }else if(str=='data'){
+            $('.content').removeClass('content_block');
+            $('.data').addClass('content_block');
+            $('#wrapper #scroller ul li a').removeClass('blue');
+            $('#wrapper #scroller ul li a:eq(1)').addClass('blue');
+        }else if(str=='sale'){
+            $('.content').removeClass('content_block');
+            $('.sale').addClass('content_block');
+            $('#wrapper #scroller ul li a').removeClass('blue');
+            $('#wrapper #scroller ul li a:eq(2)').addClass('blue');
+        }else if(str=='media'){
+            $('.content').removeClass('content_block');
+            $('.media').addClass('content_block');
+            $('#wrapper #scroller ul li a').removeClass('blue');
+            $('#wrapper #scroller ul li a:eq(3)').addClass('blue');
+        }else if(str=='hand_computer'){
+            $('.content').removeClass('content_block');
+            $('.hand_computer').addClass('content_block');
+            $('#wrapper #scroller ul li a').removeClass('blue');
+            $('#wrapper #scroller ul li a:eq(4)').addClass('blue');
+        }
+    })
+</script>
+

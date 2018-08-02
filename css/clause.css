@@ -1,0 +1,50 @@
+.clause_content{
+    padding:.8rem .3rem;
+    margin-top:1.05rem;
+    background:#FFFFFF;
+}
+
+.clause_content span{
+    display:block;
+    text-align: center;
+    font-size: .3rem;
+    font-style: normal;
+    color:#000000;
+}
+
+.clause_content i{
+    display:block;
+    text-align: center;
+    font-size: .24rem;
+    font-style: normal;
+    color:#bbbbbb;
+    margin-top:.15rem;
+}
+
+.clause_content .clause_con{
+    margin-top:.6rem;
+}
+.clause_content .clause_con p{
+    font-size: .28rem;
+    font-style: normal;
+    color:#666666;
+    margin-top:.3rem;
+    text-align:justify;
+    text-justify:inter-ideograph;
+    line-height: .46rem;
+}
+.clause_content .clause_con p span{
+    display:block;
+    text-align: left;
+    font-size: .28rem;
+    font-style: normal;
+    color:#666666;
+    margin-left:.28rem;
+}
+.clause_content .clause_con em{
+    display:block;
+    font-size: .36rem;
+    font-style: normal;
+    color:#000000;
+    margin-top:.6rem;
+}

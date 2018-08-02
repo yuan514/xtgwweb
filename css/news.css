@@ -1,0 +1,97 @@
+.news_content{
+    width:100%;
+    height:auto;
+}
+.news_content .page_content{
+    width:100%;
+    height:1.1rem;
+    text-align: center;
+    line-height: 1.1rem;
+    font-style:normal;
+    font-size:.28rem;
+}
+
+.news_content .page_content i{
+    line-height: 1.1rem;
+    font-style:normal;
+    font-size:.28rem;
+}
+
+.news_content .page_content span{
+    color:#00a5ea;
+}
+.news_content .page_content em{
+    list-style: none;
+    line-height: 1.1rem;
+    font-style:normal;
+    font-size:.28rem;
+}
+.news_content ul{
+    overflow: hidden;
+    background:#ffffff;
+    padding:0 .3rem;
+}
+
+.news_content ul .cc_cells {
+    width:100%;
+    height:1.56rem;
+    border-bottom:.01rem solid #E5E5E5;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.news_content ul .cc_cells a{
+    text-decoration: none;
+    display:block;
+}
+.news_content ul .cc_cells span{
+    display:block;
+    font-style: normal;
+    font-size: .28rem;
+    color:#666666;
+    margin-top:.4rem;
+    text-align: left;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.news_content ul .cc_cells em{
+    display:block;
+    font-style: normal;
+    font-size: .24rem;
+    color:#bbbbbb;
+    margin-top:.08rem;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

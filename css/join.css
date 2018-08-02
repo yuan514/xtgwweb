@@ -1,0 +1,309 @@
+.join_content {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.join_content i {
+    display: block;
+    font-style: normal;
+    font-size: .36rem;
+    color: #666666;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: .8rem;
+
+}
+
+.join_content p {
+    font-style: normal;
+    font-size: .24rem;
+    color: #666666;
+    text-align: center;
+    padding: 0 .3rem;
+    margin-top: .35rem;
+}
+
+.join_content .photo {
+    width: 100%;
+    height: auto;
+}
+
+.join_content .photo li {
+    width: 6.9rem;
+    height: 4.42rem;
+    margin: 0 auto;
+    background: #999999;
+    margin-top: .3rem;
+}
+
+.join_content .photo li:nth-child(1) {
+    height: 9.3rem;
+}
+.join_content .photo li:nth-child(2) {
+    height: 9.3rem;
+}
+.join_content .photo li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.join_content .liucheng{
+    width:100%;
+    height:auto;
+    margin-top:1.4rem;
+    margin-bottom:.8rem;
+}
+.join_content .liucheng li{
+    margin-top:.5rem;
+    margin-bottom:.5rem;
+}
+.join_content .liucheng li img{
+    display:block;
+    width:.8rem;
+    height:.8rem;
+    margin:0 auto;
+}
+.join_content .liucheng li i{
+    display:block;
+    width:2rem;
+    margin: 0 auto;
+    font-style: normal;
+    font-size:.36rem;
+    color:#00a5ea;
+    text-align: center;
+    margin-top:.2rem;
+}
+
+
+.join_content .liucheng li em{
+    display:block;
+    width:6rem;
+    margin: 0 auto;
+    font-style: normal;
+    font-size:.3rem;
+    color:#666666;
+    text-align: center;
+    margin-top:.1rem;
+}
+
+.join_content .liucheng span{
+    display:block;
+    width:.12rem;
+    height:.12rem;
+    background:#DDDDDD;
+    border-radius:50%;
+    margin:0 auto;
+    margin-top:.2rem;
+}
+
+.mechanism{
+    width:100%;
+    height:auto;
+    background:#F5F5F5;
+    overflow: hidden;
+    padding-bottom:.8rem;
+}
+
+.mechanism span{
+    display:block;
+    font-style:normal;
+    font-size:.36rem;
+    color:#666666;
+    text-align: center;
+    margin-top:1.14rem;
+}
+
+.mechanism p{
+    font-style: normal;
+    font-size: .24rem;
+    color: #666666;
+    text-align: left;
+}
+
+.mechanism img{
+    display:block;
+    width:5.54rem;
+    height:5.57rem;
+    margin:0 auto;
+    margin-top:.7rem;
+}
+
+
+.list{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    margin-bottom:1rem;
+}
+
+.list span{
+    display:block;
+    width:100%;
+    font-size:.36rem;
+    font-style: normal;
+    color:#666666;
+    text-align: center;
+    margin-top:1.2rem;
+}
+
+.list em{
+    display:block;
+    width:100%;
+    font-size:.24rem;
+    font-style: normal;
+    color:#999999;
+    text-align: center;
+    margin-top:.2rem;
+}
+
+.list .list_seven {
+    width:6.9rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.list .list_seven li{
+    width:100%;
+    margin-top:.5rem;
+    overflow: hidden;
+}
+.list .list_seven li:nth-child(1){
+    margin-top:.8rem;
+}
+.list ul li img{
+    display:block;
+    float:left;
+    width:.28rem;
+    height:.28rem;
+    margin-top:.08rem;
+    margin-left:2.5rem;
+}
+
+.list ul li i{
+    font-style: normal;
+    font-size:.3rem;
+    color:#666666;
+    margin:0 auto;
+    display:block;
+    float:left;
+    margin-left:.1rem;
+}
+
+.discuss_team{
+    display:none;
+    width:100%;
+    overflow: hidden;
+    border-top:.01rem solid #00a5ea;
+    margin-top:.8rem;
+    margin-bottom:.8rem;
+    box-sizing: border-box;
+}
+
+.discuss_team li{
+    overflow: hidden;
+    margin-top: .6rem !important;
+}
+
+.discuss_team li .join_name{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+
+.discuss_team li .join_name span{
+    display:block;
+    width:600px;
+    float:left;
+    text-align: left;
+    font-style: normal;
+    font-size: 18px;
+    color: #00a5ea;
+    margin-top: 0!important;
+}
+
+.discuss_team li .join_us{
+    width:6.7rem;
+    height:.84rem;
+    box-sizing: border-box;
+    border-radius:30px;
+    border:1px solid #00a5ea;
+    text-align: center;
+    line-height: .84rem;
+    color: #ffffff !important;
+    background: linear-gradient(to right,#47c0f0 ,#00a5ea);
+    box-shadow: 1px 1px 10px #74CDF1;
+    font-style: normal;
+    font-size: .3rem;
+    margin: 0 auto;
+    margin-top:.4rem;
+    margin-bottom:.15rem;
+}
+
+
+.discuss_team li .work_posit i{
+    font-style: normal;
+    font-size: .28rem;
+    color:#999999;
+    text-align: left;
+    margin-left:0;
+    letter-spacing: 1px;
+}
+
+.discuss_team li .work_posit em{
+    display:block;
+    list-style: none;
+    /*width:780px;*/
+    font-style: normal;
+    font-size:.28rem;
+    color:#666666;
+    text-align: left;
+    margin-left: 1.6rem;
+    letter-spacing: .02rem;
+    line-height: .4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

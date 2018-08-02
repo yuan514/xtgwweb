@@ -1,0 +1,56 @@
+.detail_content{
+    width:100%;
+    height:auto;
+    margin-top: 1.05rem;
+    padding: .8rem .3rem;
+    background:#ffffff;
+}
+.detail_content span{
+    display:block;
+    font-style: normal;
+    font-size: .4rem;
+    color:#000000;
+}
+
+
+.detail_content .time{
+    width:100%;
+    font-style: normal;
+    font-size: .3rem;
+    color:#999999;
+    margin-top:.2rem;
+}
+
+.detail_content .time em{
+    font-style: normal;
+    font-size: .3rem;
+    color:#999999;
+}
+
+.detail_content p{
+    font-size: .28rem;
+    font-style: normal;
+    color: #666666;
+    margin-top: .5rem;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    line-height: .46rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

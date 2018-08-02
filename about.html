@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta data-vue-meta="true" name="description" content="小豚科技-领先的移动互联网效果营销服务商">
+    <link rel="stylesheet" href="css/commen.css">
+    <link rel="stylesheet" href="css/about.css">
+    <script src="js/rem.js"></script>
+    <title>小豚官网-关于小豚</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/demoUtils.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/about.js"></script>
+    <title></title>
+</head>
+<script type="text/javascript">
+
+    var myScroll;
+
+    function loaded() {
+        myScroll = new IScroll('#wrapper', {scrollX: true, scrollY: false, mouseWheel: true});
+    }
+
+    document.addEventListener('touchmove', function (e) {
+//        e.preventDefault();
+    }, isPassive() ? {
+        capture: false,
+        passive: true
+    } : false);
+
+</script>
+<style>
+    #wrapper {
+        /*position: absolute;*/
+        /*z-index: 99;*/
+        /*top: 45px;*/
+        /*bottom: 48px;*/
+        /*left: 0;*/
+        /*width: 100%;*/
+        /*background: #ccc;*/
+        overflow: hidden;
+        background: #ffffff;
+    }
+
+    #scroller {
+        /*position: absolute;*/
+        z-index: 1;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        width: 9rem;
+        height: 1.1rem;
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        -o-text-size-adjust: none;
+        text-size-adjust: none;
+    }
+
+    #scroller ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    #scroller li {
+        display: block;
+        float: left;
+        font-size: .3rem;
+        line-height: 1.1rem;
+        margin-left: .4rem;
+    }
+    #scroller li a{
+        text-decoration: none;
+        color: #999999;
+    }
+</style>
+<body onload="loaded()">
+<div style ='margin:0 auto;width:0px;height:0px;overflow:hidden;'>
+    <img src="img/title_logo.png" alt="">
+</div>
+
+<div class="nav_mask" style="display:none">
+    <div id="wrapper_a">
+        <div id="scroller_a">
+        <ul>
+            <li class="mask_li">
+                <div class="logo"><a href="index.html"><img src="img/logo_Top_blue@2x.png" alt=""></a></div>
+                <div class="nav_logo"><img src="img/nav_menu_blue@2x.png" alt=""></div>
+            </li>
+            <li class="mask_li"><a  href="index.html">首页</a></li>
+            <li class="nav_about">
+                <a class="ad blue" href="about.html">关于</a>
+                <img class="rotate1" src="img/more.png" alt="">
+                <ul class="nav_one nav_ul" style="display:none">
+                    <li><a href="#synopsis">公司简介</a></li>
+                    <li><a href="#compony_intro">发展历程</a></li>
+                    <li><a href="#corporate_culture">企业文化</a></li>
+                    <li><a href="#enterprise_logo">企业标识</a></li>
+                    <li><a href="#cooperative_partner">合作伙伴</a></li>
+                </ul>
+            </li>
+            <li class="nav_product">
+                <a class="ad" href="produce.html">产品体系 </a>
+                <img class="" src="img/more.png" alt="">
+                <ul class="nav_two nav_ul" style="display:none">
+                    <li><a href="produce.html#adver">广告平台</a></li>
+                    <li><a href="produce.html#data">大数据平台</a></li>
+                    <li><a href="produce.html#sale">新零售平台</a></li>
+                    <li><a href="produce.html#media">新媒体平台</a></li>
+                    <li><a href="produce.html#hand_computer">手游分发</a></li>
+                </ul>
+            </li>
+            <li class="mask_li"><a href="news.html">公司动态</a></li>
+            <li class="mask_li"><a href="addus.html">加入我们</a></li>
+            <li class="mask_li"><a href="contact.html">联系我们</a></li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="all">
+    <!--banner-->
+    <div class="banner">
+        <img src="img/bag_AbouttheShelin@2x.png" alt="">
+        <div class="nav">
+            <div class="logo">
+                <a href="index.html"><img class="white_l" src="img/logo_Top_white@2x.png" alt="" >
+                <img class="blue_l" src="img/logo_Top_blue@2x.png" alt="" style="display:none"></a></div>
+            <div class="nav_logo">
+                <img class="white_r" src="img/nav_menu_white@2x.png" alt="">
+                <img class="blue_r" src="img/nav_menu_blue@2x.png" alt="" style="display:none">
+            </div>
+        </div>
+    </div>
+
+
+    <!--content-->
+    <div class="about_content">
+        <div id="wrapper">
+            <div id="scroller">
+                <ul>
+                    <li><a href="about.html#synopsis" class="blue">公司简介</a></li>
+                    <li><a href="about.html#compony_intro">发展历程</a></li>
+                    <li><a href="about.html#corporate_culture">企业文化</a></li>
+                    <li><a href="about.html#enterprise_logo">企业标识</a></li>
+                    <li><a href="about.html#cooperative_partner">合作伙伴</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--公司简介-->
+        <div class="synopsis content content_block" >
+            <span>公司简介</span>
+            <i>COMPANY PROFILE</i>
+            <p>
+                西安小豚信息科技有限公司（简称“小豚科技”）注册成立于2017年8月，是一家领先的移动互联网效果营销广告服务商。公司主要从事数字效果营销服务平台和应用的设计、开发、运营，致力于构建垂直性“平台+媒体+精准营销”的良性生态模式，深度整合移动互联网流量与媒体资源，为个人与企业提供优质的数字内容服务。
+                <br>
+                <br>
+                WMC Pro（鲸鱼云投放系统）平台是基于移动互联网数据分析的精准营销推广和智能优化技术平台,主要通过算法模型、数据挖掘分析,对用户使用互联网时的场景化内容进行定向 分析,深度挖掘媒介价值。WMC
+                Pro平台实现了手机移动端和PC端的跨屏组合营销,通过对营销推广效果动态智能优化,来完成基于移动互联网效果精准营销，一家领先的移动互联网效果营销广告服务商。
+                <br>
+                <br>
+                小豚科技目前已与包括百度、搜狗、华数TV、奇虎360、暴风科技、金山网络、二三四五、多益游戏、4399、蜗牛游戏等众多知名品牌客户在内的互联网网络服务商、电子商务企业、游戏公司形成了稳固的合作关系。
+                <br>
+                <br>
+                未来小豚科技将进一步深化和发展数据服务建设，充分利用自身在效果营销领域的优势，进一步向产业链上下游发展，最终能够从技术研发、IP资源运营、CP合作、产业资本运作等方面深度布局移动互联网产业链。
+
+
+            </p>
+        </div>
+
+
+        <!--发展历程-->
+        <div class="compony_intro content">
+            <span>发展历程</span>
+            <i>DEVELOPMENT HISTORY</i>
+            <div class="intro">
+                <span>2018</span>
+                <i></i>
+                <em></em>
+                <i></i>
+                <em></em>
+                <i></i>
+                <span>2017</span>
+                <i></i>
+                <em></em>
+                <i></i>
+                <em></em>
+                <i></i>
+                <em></em>
+                <i></i>
+                <em></em>
+                <i></i>
+            </div>
+            <ul class="intro_posit">
+                <li>
+                    <span>01月</span>
+                    <p>旗下产品"猫爪在线抓娃娃"上线</p>
+                </li>
+                <li>
+                    <span>02月</span>
+                    <p>旗下平台"新意移动投放平台"日站数量突破1.3亿</p>
+                </li>
+                <li>
+                    <span>12月</span>
+                    <p>鲸鱼应用商店上线</p>
+                </li>
+                <li>
+                    <span>10月</span>
+                    <p>iSanfen短视频上线</p>
+                </li>
+                <li>
+                    <span>09月</span>
+                    <p>入驻西安市莲湖区"颐高科创基地"</p>
+                </li>
+                <li>
+                    <span>08月</span>
+                    <p>注册成立</p>
+                </li>
+
+            </ul>
+            <div class="intro_xinyi">
+                <span></span>
+            </div>
+        </div>
+
+
+        <!--企业文化-->
+        <div class="corporate_culture content" >
+
+        </div>
+
+        <!--企业标识-->
+        <div class="enterprise_logo content">
+            <span>企业标识</span>
+            <i>ENTERPRISE LOGO</i>
+            <ul>
+                <li>
+                    <img src="img/img_Enterpriselogo1@2x.png" alt="">
+                </li>
+                <li>
+                    <img src="img/img_Enterpriselogo2@2x.png" alt="">
+                </li>
+            </ul>
+        </div>
+
+        <!--合作伙伴-->
+        <div class="cooperative_partner content">
+
+        </div>
+    </div>
+
+    <!--foot-->
+    <div class="foot">
+        <ul>
+            <li class="about">
+                <div class="ad">关于 <img class="xuan1" src="img/more.png" alt=""></div>
+                <ul class="foot_one foot_ul" style="display:none">
+                    <li><a href="about.html#synopsis">小豚简介</a></li>
+                    <li><a href="about.html#corporate_culture">企业文化与价值</a></li>
+                    <li><a href="addus.html">加入我们</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                    <li><a href="about.html#cooperative_partner">合作伙伴</a></li>
+                </ul>
+            </li>
+            <li class="product">
+                <div class="ad">产品体系 <img src="img/more.png" alt=""></div>
+                <ul class="foot_two foot_ul" style="display:none">
+                    <li><a href="produce.html#adver">广告平台</a></li>
+                    <li><a href="produce.html#data">大数据平台</a></li>
+                    <li><a href="produce.html#sale">新零售平台</a></li>
+                    <li><a href="produce.html#media">新媒体平台</a></li>
+                    <li><a href="produce.html#hand_computer">手游分发</a></li>
+                </ul>
+            </li>
+            <li class="law">
+                <div class="ad">法律政策 <img src="img/more.png" alt=""></div>
+                <ul class="foot_three foot_ul" style="display:none">
+                    <li><a href="clause.html">服务条款</a></li>
+                    <li><a href="statement.html">隐私声明</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="ban">Copyright © 2018.xiaotun.com All Rights Reserved</div>
+        <div class="choose">
+            <i>触屏版</i>
+            <span>|</span>
+            <em>电脑版</em>
+        </div>
+        <img class="top" src="img/btn_top@2x.png" alt="" style="display:none">
+    </div>
+</div>
+</body>
+</html>
+
+<script>
+    $().ready(function(){
+        var str=window.location.href; //取得整个地址栏
+        var num=str.indexOf("#");
+        str=str.substr(num+1); //取得所有参数   stringvar.substr(start [, length ]
+        if(str=='synopsis'){
+            $('.content').removeClass('content_block');
+            $('.synopsis').addClass('content_block');
+            $('#wrapper #scroller ul li a').removeClass('blue');
+            $('#wrapper #scroller ul li a:eq(0)').addClass('blue');
+        }else if(str=='compony_intro'){
+            $('.content').removeClass('content_block');
+            $('.compony_intro').addClass('content_block');
+            $('#wrapper #scroller ul li a').removeClass('blue');
+            $('#wrapper #scroller ul li a:eq(1)').addClass('blue');
+        }else if(str=='corporate_culture'){
+            $('.content').removeClass('content_block');
+            $('.corporate_culture').addClass('content_block');
+            $('#wrapper #scroller ul li a').removeClass('blue');
+            $('#wrapper #scroller ul li a:eq(2)').addClass('blue');
+        }else if(str=='enterprise_logo'){
+            $('.content').removeClass('content_block');
+            $('.enterprise_logo').addClass('content_block');
+            $('#wrapper #scroller ul li a').removeClass('blue');
+            $('#wrapper #scroller ul li a:eq(3)').addClass('blue');
+        }else if(str=='cooperative_partner'){
+            $('.content').removeClass('content_block');
+            $('.cooperative_partner').addClass('content_block');
+            $('#wrapper #scroller ul li a').removeClass('blue');
+            $('#wrapper #scroller ul li a:eq(4)').addClass('blue');
+        }
+    })
+
+</script>
+
